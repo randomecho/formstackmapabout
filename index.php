@@ -156,7 +156,7 @@ if (isset($_GET['id']))
 			$waypoints = json_encode($waypoints);
 
 			echo '<div id="map-canvas"></div>';
-			echo '<script src="http://jaxy.net/jquery.js"></script>';
+			echo '<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>';
 			echo '<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>';
 			echo '<script src="mapabout.js"></script>';
 			echo '<script>';
